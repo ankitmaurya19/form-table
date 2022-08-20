@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Rendering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="outer">
+        <h3>Equipment-wise Details</h3>
+        <table id="main" >
+            <tr>
+                <td class="one">MACHINE NAME</td>
+                <td class="two" >MACHINE ID</td>
+                <td class="one" rowspan="2" colspan="3">
+                    <table id="tb1">
+                        <h7>ENERGY CONSUMED</h7>
+                    <tr >
+                        <td class="one" >Today</td>
+                        <td class="one">MTD</td>
+                        <td class="one" >YTD</td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="two">Active Power</td>
+                <td class="one" >Apparent Power</td>
+                <td class="two">Reactive Power</td>
+                <td class="one" >CURRENT</td>
+                <td class="two" >VOLTAGE</td>
+                <td class="one" >POWER FACTOR</td>
+                <td class="one">
+                    <table id="tb2"> 
+                        <h7>IDLE TIME</h7>
+                    <tr>
+                        <td class="one">Today</td>
+                        <td class="one">MTD</td>
+                        <td class="one">YTD</td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
